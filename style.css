@@ -114,3 +114,33 @@ h2 {
   padding: 10px;
   color: white;
 }
+
+@media (max-width: 720px) {
+  body {
+    align-items: start;
+  }
+
+  main {
+    transform: scale(0.75);
+  }
+
+  header {
+    height: 40px;
+  }
+
+  #links {
+    padding-right: 0;
+    justify-content: center;
+  }
+
+  header * {
+    transform: scale(0.95);
+  }
+}
+
+@media (max-width: 540px) {
+  main {
+    margin-top: -50px;
+    transform: scale(0.55);
+  }
+}
