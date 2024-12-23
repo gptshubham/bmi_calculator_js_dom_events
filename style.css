@@ -25,18 +25,17 @@ main {
   z-index: 1;
 }
 
-h1,
-#instruction-to-use {
+h1 {
   margin: 10px;
   text-align: center;
 }
 
-h2 {
-  margin: 0;
+#instruction-to-use {
+  margin: 10px 0;
 }
 
-.svg {
-  display: inline;
+h2 {
+  margin: 0;
 }
 
 .logo {
