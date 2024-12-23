@@ -2,6 +2,10 @@
 const height = document.querySelector('#height');
 const weight = document.querySelector('#weight');
 
+const age = document.querySelector('#age')
+const genderMale = document.querySelector('#male')
+const genderFemale = document.querySelector('#female')
+
 const calculateButton = document.querySelector('#calculate');
 const clearButton = document.querySelector('#clear');
 
@@ -12,3 +16,12 @@ calculateButton.addEventListener('click', () => {
   const roundedBMI = Math.round(bmi * 100) / 100
   result.innerHTML = `Result: ${roundedBMI}`
 });
+
+clearButton.addEventListener('click', () => {
+  genderMale.checked = true;
+  genderFemale.checked = false;
+  age.value = 2
+  height.value = 180
+  weight.value = 65
+  result.innerHTML = 'Result'
+})
