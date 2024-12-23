@@ -102,7 +102,7 @@ h2 {
   color: white;
 }
 
-.result {
+#result {
   height: 40px;
   display: flex;
   justify-content: left;
